@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    display: flex;
+    width: 100%;
+}
+
+.right-half{
+    width: 55%;
+}
+
+.poster-image {
+    height: 93vh;
+    width: 100%;
+}
+
+.left-half{
+    width: 45%;
+}
+
+.logo{
+    padding: 30px;
+    width: 7%;
+}
+
+.heading{
+    padding: 40px;
+    font-size: 69px;
+}
+
+.sub{
+    padding: 0px 40px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    /* background: none; */
+    width: 23%;
+    padding: 24px 40px;
+}
+
+.btn{
+    width: 210px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    background: none;
+    margin-bottom: 16px;
+    padding: 12px 24px;
+}
+
+#google{
+    background-image: url(img/Flat-design-Google-logo-design-Vector-PNG.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: center;
+}
+
+#apple{
+    background-image: url(img/Apple.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+}
+
+.list{
+    padding: 0 36px;
+    margin-top: 6px;
+    display: flex;
+}
+
+.list li{
+    display: inline;
+    list-style: none;
+    padding: 0 20px;
+}
+    </style>
+    <title>Twitter</title>
+</head>
+<body>
+    <div class="cover">
+        <div class="right-half">
+            <img class="poster-image" src="img/1cusat0jmok61.png" alt="poster">
+        </div>
+        <div class="left-half">
+            <img class="logo" src="img/Twitter-logo-2012.png" alt="logo">
+            <h1 class="heading">Happening now</h1>
+            <h1 class="sub">Join now</h1>
+            <div class="buttons">
+                <button class="btn" id="google">Sign up with Google</button>
+                <button class="btn" id="apple">Sign up with Apple</button>
+                <button class="btn">Sign up with phone or email</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="list">
+            <li>About</li>
+            <li>Help Center</li>
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Blog</li>
+            <li>Markesting</li>
+            <li>Settings</li>
+        </div>
+    </footer>
+</body>
+</html>
